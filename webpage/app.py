@@ -43,6 +43,6 @@ def movies():
 
 
 
-@app.route("/about")
-def about():
-     return render_template("about.html")
+@app.route("/project")
+def project():
+     return render_template("project.html")
